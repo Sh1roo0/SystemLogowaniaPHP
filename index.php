@@ -18,15 +18,16 @@
             <input type="checkbox" name="verify" id="verify">
             <input type="submit" value="Zaloguj" id="button">
         </form>
+        
     </div>
 
  <?php
     $users =  array(
-        array("User" => "Login1" , "Password" => "Haslo1"),
-        array("User" => "Login2" , "Password" => "Haslo2"),
-        array("User" => "Login3" , "Password" => "Haslo3"),
-        array("User" => "Login4" , "Password" => "Haslo4"),
-        array("User" => "Login5" , "Password" => "Haslo5")
+        array("User" => "login1" , "Password" => "1234"),
+        array("User" => "login2" , "Password" => "1234"),
+        array("User" => "login3" , "Password" => "1234"),
+        array("User" => "login4" , "Password" => "1234"),
+        array("User" => "login5" , "Password" => "1234")
     );
 
     $login = isset($_POST['login']);
